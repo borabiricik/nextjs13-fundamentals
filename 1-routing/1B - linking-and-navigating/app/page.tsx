@@ -14,10 +14,10 @@ export default function Home() {
         <span className="text-4xl">Home</span> Page
       </div>
 
-      <Link href={"/users"}>
+      <Link href={"/users"} prefetch>
         Click to Navigate <b>Users</b> Page
       </Link>
-      <Link href={"/blog"}>
+      <Link href={"/blog"} prefetch>
         Click to Navigate <b>Blog</b> Page
       </Link>
     </main>
