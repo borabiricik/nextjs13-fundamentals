@@ -7,9 +7,9 @@
  */
 
 /**
- *? But let's come to the magic part 🪄
+ *? 🪄 But let's come to the magic part
  ** You can define your layouts for Route Groups
- *? Check app/(profile)/layout.tsx and impress by NextJS 13's capabilities 😱
+ *? 😱 Check app/(profile)/layout.tsx and impress by NextJS 13's capabilities
  */
 
 export default function Home() {
