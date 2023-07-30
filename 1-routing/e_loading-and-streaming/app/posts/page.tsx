@@ -10,6 +10,8 @@ import { Post } from "./components/Post";
  ** With this way:
  *? When post data is loaded, we`ll render post and comments will be fetched when user is reading post.
  *? So the user won`t experience the delay when fetching comments.
+ ** P.S: You can combine both streaming and loading together.
+ ** In that case, we also can create loading.tsx and show full page loader for getting a single post request.
  */
 
 const PostsPage = async () => {
